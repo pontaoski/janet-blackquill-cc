@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partialCached "head.html" . -}}
+    <body
+        class="bg-charcoal-1400
+               text-charcoal-500
+               dark:bg-charcoal-300
+               dark:text-charcoal-1500"
+    >
+        {{- partial "header.html" . -}}
+        <main>
+        {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

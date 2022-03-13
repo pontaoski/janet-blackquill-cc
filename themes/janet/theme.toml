@@ -1,0 +1,11 @@
+name = "janet"
+license = "MIT"
+description = "A theme for Janet's website"
+homepage = "http://janet.blackquill.cc/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Janet Blackquill"
+  homepage = ""

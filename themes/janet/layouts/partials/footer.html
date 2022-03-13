@@ -1,0 +1,5 @@
+<footer class="flex flex-row items-center justify-center space-x-4 mt-6 linky">
+    {{ range .AllTranslations }}
+    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+</footer>
